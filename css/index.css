@@ -1,0 +1,59 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr{
+    height: 1px;
+    width: 100vw;
+    color:red;
+}
+
+.caja {
+    width: 100vw;
+    height: 30vh;
+}
+
+#cajaResultado{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+input#pan {
+    border-radius: 12px;
+    height: 145px;
+    width: 210px;
+    border: 1px solid #000000;
+    background: #cccccc url("../img/pan.png") no-repeat center;
+    cursor: pointer;
+}
+
+input#pan:hover{
+    background: green url("../img/pan.png") no-repeat center;
+}
+
+
+input#producto {
+    border-radius: 12px;
+    height: 145px;
+    width: 210px;
+    border: 1px solid #000000;
+    background: #cccccc url("../img/producto.png") no-repeat center;
+    cursor: pointer;
+}
+
+input#producto:hover{
+    background: green url("../img/producto.png") no-repeat center;
+}
