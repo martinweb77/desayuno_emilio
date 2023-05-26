@@ -14,14 +14,14 @@ let resultado = document.getElementById("cajaResultado")
 pan.addEventListener("click", () => {
     // console.log(panes[getRandomInt(panes.length)]);
     resultadoPan = panes[getRandomInt(panes.length)]
-    resultado.innerHTML = "Hoy vas a desayunar "+resultadoPan
+    resultado.innerHTML = "Hoy vas a desayunar " + resultadoPan
 
 })
 
 producto.addEventListener("click", () => {
     // console.log(productos[getRandomInt(productos.length)]);
     resultadoProducto = productos[getRandomInt(productos.length)]
-    resultado.innerHTML = "Hoy vas a desayunar "+resultadoPan + " con "+ resultadoProducto
+    resultado.innerHTML = "Hoy vas a desayunar " + resultadoPan + " con " + resultadoProducto
 })
 
 
