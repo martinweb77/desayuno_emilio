@@ -5,7 +5,7 @@ function getRandomInt(max) {
 let resultadoProducto
 let resultadoPan
 let panes = ["Bollo", "Viena", "Pipas", "Mollete"]
-let productos = ["Mantequilla", "Pate", "Sobrasada", "Tomate Triturado", 'Mantequilla y Pavo', "Mantequilla y York", "Jamon Serrano", "Tomate rodajas y Jamon Serrano"]
+let productos = ["Mantequilla y mermelada", "Salchichón", "Tortilla", "Jamón y tomate", "York", "Carne mechada"]
 
 let pan = document.getElementById("pan")
 let producto = document.getElementById("producto")
