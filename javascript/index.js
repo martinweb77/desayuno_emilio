@@ -7,7 +7,7 @@ let comidas = ["Macarrones con atún y cebolla", "Tortilla de patatas",
 "Fiambre y huevos", "Puchero", "Fabada", "Cocido madrileño", "Filete y arroz", "Pizza",
 "Bocadillo de salchichas", "Pechuga empanada", "Salmorejo y postre", "Ensalada y postre"]
 
-let comida = document.getElementById("comidas")
+let comida = document.getElementById("comida")
 let resultado = document.getElementById("cajaResultado")
 
 comida.addEventListener("click", () => {
