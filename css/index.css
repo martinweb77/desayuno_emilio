@@ -31,21 +31,7 @@ hr{
     font-weight: bold;
 }
 
-input#pan {
-    border-radius: 12px;
-    height: 145px;
-    width: 210px;
-    border: 1px solid #000000;
-    background: #cccccc url("../img/pan.png") no-repeat center;
-    cursor: pointer;
-}
-
-input#pan:hover{
-    background: green url("../img/pan.png") no-repeat center;
-}
-
-
-input#producto {
+input#comida {
     border-radius: 12px;
     height: 145px;
     width: 210px;
@@ -54,6 +40,6 @@ input#producto {
     cursor: pointer;
 }
 
-input#producto:hover{
+input#comida:hover{
     background: green url("../img/producto.png") no-repeat center;
 }
