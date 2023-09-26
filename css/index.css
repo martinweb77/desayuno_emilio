@@ -36,10 +36,10 @@ input#comida {
     height: 145px;
     width: 210px;
     border: 1px solid #000000;
-    background: #cccccc url("../img/producto.png") no-repeat center;
+    background: #cccccc url("../img/comida.png") no-repeat center;
     cursor: pointer;
 }
 
 input#comida:hover{
-    background: green url("../img/producto.png") no-repeat center;
+    background: green url("../img/comida.png") no-repeat center;
 }
