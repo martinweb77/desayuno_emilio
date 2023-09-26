@@ -18,12 +18,12 @@ div {
 hr{
     height: 1px;
     width: 100vw;
-    color:red;
+    color:blue;
 }
 
 .caja {
     width: 100vw;
-    height: 30vh;
+    height: 40vh;
 }
 
 #cajaResultado{
@@ -33,8 +33,8 @@ hr{
 
 input#comida {
     border-radius: 12px;
-    height: 145px;
-    width: 210px;
+    height: 250px;
+    width: 350px;
     border: 1px solid #000000;
     background: #cccccc url("../img/comida.png") no-repeat center;
     cursor: pointer;
